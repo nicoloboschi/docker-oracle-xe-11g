@@ -38,3 +38,5 @@ for f in /docker-entrypoint-initdb.d/*; do
   esac
   echo
 done
+
+echo "Oracle data initialization. Done."
